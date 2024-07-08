@@ -21,8 +21,3 @@ Printing Current Time Again: Finally, print(time.strftime("%H:%M")) prints the c
 Example Usage:
 If you run this script and enter an alarm time like 10:30 when prompted, the program will continuously check the current time. Once the system time reaches 10:30, it will print "Time to wake up!" and then print the current time again.
 
-Potential Improvements:
-Error handling for invalid user inputs (e.g., non-numeric inputs, incorrect format).
-Allow the user to specify AM/PM if needed.
-Add a more graceful exit mechanism (currently, the script stops only when the alarm time is reached).
-Make sure your environment supports the time module for this script to work correctly.
